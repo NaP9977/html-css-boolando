@@ -16,7 +16,6 @@ header{
     height: 60px;
   color: white;
  justify-content: space-evenly;
- align-items: center;
  
  }
 
@@ -28,9 +27,11 @@ header{
  }
 main{
     margin-top: 30px;
+    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: 600;
+   justify-content: center;
 }
 
 #boolando{
@@ -40,12 +41,37 @@ main{
     height: 40px;
     width: auto;
 }
-.main_containers{
-   display: flex;
 
+   main_container{
+   display: flex;
+   
+    width: 70%
     
+    
+   }
+   .top_products{
+    display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   gap: 10px;
+    
+   }
+.description{
+    font-size: small;
+    border: 1px solid black;
 }
- .models_pictures{
-   margin: auto;
+.brand{
+    font-weight: 100;
+}
+.prices{
+    display: flex;
     flex-direction: row;
- }
+   color: red;
+    gap: 2px;
+    justify-content: flex-start
+    }
+    .ex_price{
+        color: black;
+        text-decoration: line-through;
+    }
