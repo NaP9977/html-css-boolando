@@ -15,6 +15,37 @@ header{
     background-color: orangered;
     height: 60px;
   color: white;
- justify-content: space-around;
+ justify-content: space-evenly;
+ align-items: center;
  
+ }
+
+ 
+ .text_sections{
+  margin-left: 250;
+  font-size: small;
+  font-weight: bold;
+ }
+main{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+#boolando{
+    font-weight: bold;
+}
+.text_section_2{
+    height: 40px;
+    width: auto;
+}
+.main_containers{
+   display: flex;
+
+    
+}
+ .models_pictures{
+   margin: auto;
+    flex-direction: row;
  }
