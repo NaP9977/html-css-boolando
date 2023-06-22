@@ -1,0 +1,19 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    background-color: orangered;
+    height: 50px;
+  color: white;
+   
+}
